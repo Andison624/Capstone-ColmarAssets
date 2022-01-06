@@ -1,13 +1,31 @@
-*{
+body{
     font-family: 'Conamore', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
 }
 
-.navbar{
-    height:64px;
+h1{
+    font-size: 2rem;
+}
+
+a{
+    font-size: 0.75rem;
+}
+
+p,button{
+    font-size: 1rem;
+}
+
+
+/* header */
+
+header{
+    display:flex;
 }
 
 .title {
     display:inline;
+    
 }
 
 .name {
@@ -31,32 +49,94 @@
     color:gainsboro;
 }
 
-#firstPart .jumbotron {
-    background-color: gainsboro;
+.titleOpt{
+    margin-top: 16px;
 }
 
-#banner {
-    width: 60%;
-    padding: 32px 24px;
-}
-
-#conFluid{
-    padding-left: 0px;
-}
-
-ul .nav-item .nav-link{
-    justify-self: right;
+.titleOpt a{
     padding-left: 16px;
+    text-decoration:none;
+    color:black;
 }
-
-
 
 #signIn {
     padding-right: 24px;
 }
 
+/* banner */
+
+.banner {
+    background-color: gainsboro;
+    display:flex;
+}
+
+#banner {
+    width: 100%;
+}
+
+.banner-left{
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.banner-right{
+    width: 40%;
+    margin: auto 0;
+    font-size: 30px;
+}
+
 button {
     background-color: #3F3F3F;
-    padding: 8px 120px;
+    padding-top: 8px ;
+    padding-bottom: 8px ;
+    width:80%;
     color:honeydew;
+}
+
+/* information-main */
+
+.information{
+    display:flex;
+}
+
+.information-left{
+    width: 60%;
+    padding: 32px 24px;
+    padding-bottom: 0px;
+}
+
+#information {
+    width: 100%;
+}
+
+.information-text{
+    padding-left: 24px;
+}
+
+.information-text section{
+    padding-bottom: 24px;
+}
+
+.information-text aside{
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.information-right{
+    width:40%;
+}
+
+.information-aside{
+    display:flex;
+}
+
+.information-img {
+    padding: 16px;
+    width: 35%;
+    height: auto;
+}
+
+.information-body{
+    width:65%;
+
 }
