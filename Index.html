@@ -11,33 +11,39 @@
     <title>Colmaracademy</title>
 
     <header>
-        
-        <nav class="titOpt navbar navbar-expand-lg navbar-light bg-light">
 
-            <img id="logo" class="title" src="capstone_colmar_assets\capstone_colmar_assets\images\ic-logo.svg"
-                alt=”Capstone”>
-    
-            <h1 class="title name" id="colmar"><strong>COLMAR</strong></h1>
-            <h1 class="title name" id="academy"><strong>ACADEMY</strong></h1>
+            
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div id="conFluid" class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                      <img id="logo" class="title" src="capstone_colmar_assets/images/ic-logo.svg"
+                          alt=”Capstone”>
+                      <h1 class="title name" id="colmar"><strong>COLMAR</strong></h1>
+                      <h1 class="title name" id="academy"><strong>ACADEMY</strong></h1>
+                    </a>
 
-            <div class="container-fluid">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"  href='#'>On campus</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href='#'>Online</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href='#'>or companies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href='#'>Sign in</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                  </button>
 
+                  <div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">On campus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Online</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">For companies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="signIn" class="nav-link active" href="#">Sign in</a>
+                        </li>
+                    </ul>     
+                  </div>
+                </div>
+            </nav>
     </header>
 
 </head>
@@ -46,18 +52,20 @@
 
     <div id="firstPart">
         <div class="jumbotron">
-            <img id="banner" src="capstone_colmar_assets\capstone_colmar_assets\images\banner.jpg">
-            <section>
-                <h1><strong>Learn something<br>new everyday</strong></h1>
-            </section>
-            <article>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</article>
-            <button type="button">Start here</button>
+            <img id="banner" class="" src="capstone_colmar_assets\images\banner.jpg">
+            <div class="">
+                <section>
+                    <h1 class="learn"><strong>Learn something<br>new everyday</strong></h1>
+                </section>
+                <article class="learn">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</article>
+                <button type="button">Start here</button>
+            </div>
         </div>
     </div>
 
     <div>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\information-main.jpg">
+            <img src="capstone_colmar_assets\images\information-main.jpg">
             <section>
                 <h1><strong>It doesn't hurt to keep practicing</strong></h1>
             </section>
@@ -67,7 +75,7 @@
             <aside>Emanuel, Sr Strategist at Hiring.com</aside>
         </div>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\information-orientation.jpg">
+            <img src="capstone_colmar_assets\images\information-orientation.jpg">
             <section>
                 <h1>Orientation date</h1>
             </section>
@@ -75,7 +83,7 @@
             <a href='#'>Read more</a>
         </div>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\information-campus.jpg">
+            <img src="capstone_colmar_assets\images\information-campus.jpg">
             <section>
                 <h1>Our campus</h1>
             </section>
@@ -83,7 +91,7 @@
             <a href='#'>Read more</a>
         </div>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\information-guest-lecture.jpg">
+            <img src="capstone_colmar_assets\images\information-guest-lecture.jpg">
             <section>
                 <h1>Our guest lecture</h1>
             </section>
@@ -95,7 +103,7 @@
     <div>
         <h1><strong>Start learning</strong></h1>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\course-software.jpg">
+            <img src="capstone_colmar_assets\images\course-software.jpg">
             <section>
                 <h1>Software engineering</h1>
             </section>
@@ -103,7 +111,7 @@
             <article>Web Development, Mobile Development, iOT, APIs</article>
         </div>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\course-computer-art.jpg">
+            <img src="capstone_colmar_assets\images\course-computer-art.jpg">
             <section>
                 <h1>Computer art</h1>
             </section>
@@ -111,7 +119,7 @@
             <article>Imaging & design, Web Design, Motion Graphics & Visual Effects, Computer Animation</article>
         </div>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\course-design.jpg">
+            <img src="capstone_colmar_assets\images\course-design.jpg">
             <section>
                 <h1>Design</h1>
             </section>
@@ -119,7 +127,7 @@
             <article>User Experience Design, User Research, Visual Design</article>
         </div>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\course-data.jpg">
+            <img src="capstone_colmar_assets\images\course-data.jpg">
             <section>
                 <h1>Data</h1>
             </section>
@@ -127,7 +135,7 @@
             <article>Data Science, Big Data, SQL, Data Visualization</article>
         </div>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\course-business.jpg">
+            <img src="capstone_colmar_assets\images\course-business.jpg">
             <section>
                 <h1>Business</h1>
             </section>
@@ -135,7 +143,7 @@
             <article>Product Development, Business Development, Startup</article>
         </div>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\course-marketing.jpg">
+            <img src="capstone_colmar_assets\images\course-marketing.jpg">
             <section>
                 <h1>Marketing</h1>
             </section>
@@ -147,7 +155,7 @@
     <div>
         <h1><strong>Thesis exhibit</strong></h1>
         <div>
-            <video src="capstone_colmar_assets\capstone_colmar_assets\videos\thesis.mp4" controls></video>
+            <video src=capstone_colmar_assets\capstone_colmar_assets\videos\thesis.mp4" controls></video>
             <section>
                 <h1>Reimagine urban</h1>
             </section>
@@ -156,14 +164,14 @@
                 consequat, tristique ligula."</article>
         </div>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\thesis-fisma.jpg">
+            <img src="capstone_colmar_assets\images\thesis-fisma.jpg">
             <section>
                 <h1>Fisma: Design and Prototype</h1>
             </section>
             <article>Designer showcase of new prototype product</article>
         </div>
         <div>
-            <img src="capstone_colmar_assets\capstone_colmar_assets\images\thesis-now-and-then.jpg">
+            <img src="capstone_colmar_assets\images\thesis-now-and-then.jpg">
             <section>
                 <h1>Now and then</h1>
             </section>

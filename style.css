@@ -31,10 +31,6 @@
     color:gainsboro;
 }
 
-.navbar-nav{
-    float: right
-}
-
 #firstPart .jumbotron {
     background-color: gainsboro;
 }
@@ -42,6 +38,21 @@
 #banner {
     width: 60%;
     padding: 32px 24px;
+}
+
+#conFluid{
+    padding-left: 0px;
+}
+
+ul .nav-item .nav-link{
+    justify-self: right;
+    padding-left: 16px;
+}
+
+
+
+#signIn {
+    padding-right: 24px;
 }
 
 button {
