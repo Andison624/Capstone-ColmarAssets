@@ -52,6 +52,7 @@ header{
 
 .titleOpt{
     margin-top: 16px;
+    margin-left: auto
 }
 
 .titleOpt a{
@@ -95,28 +96,29 @@ button {
 
 /* information-left */
 
-#information {
+#information, #exhibit{
     padding-left: 24px;
 }
 
-.information-left{
+.information-left, .exhibit-left{
     padding-top: 32px;
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 0px;
 }
 
-.information-text{
+.information-text, .exhibit-text{
     padding-left: 24px;
 }
 
-.information-text section{
+.information-text section, .exhibit-text section{
+    padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.information article{
+.information article, .exhibit-text article{
     padding-left: 0px;
 }
 
@@ -132,25 +134,25 @@ button {
 
 /* information-right */
 
-.information-img {
+.information-img, .exhibit-img {
     padding: 16px;
     height: auto;
 }
 
-.information-body{
+.information-body, .exhibit-body{
     padding:0px;
     width: 50%;
     margin: auto 0;
 }
 
-.information-body h3, .information-body a{
+.information-body h3, .information-body a, .exhibit-body h3{
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
 /* start */
 
-.startLearn h1{
+.startLearn h1, .exhibit h1{
     text-align: center;
     margin: 0px;
     padding: 32px;
@@ -165,5 +167,62 @@ button {
 
 .card{
     padding:0px;
+    width: 18rem;
     margin: 32px;
+    margin-top: 0px;
+}
+
+.card-img-top{
+    height: auto;
+}
+
+.card h5{
+    margin: 0px;
+}
+
+.card p{
+    padding-top: 8px;
+    margin: 0px;
+}
+
+.card .card-text{
+    padding-bottom: 24px;
+}
+
+.card-body {
+    padding: 0px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+/* Exhibit */
+
+.exhibit-left {
+    padding-top: 0px;
+}
+
+.exhibit section {
+    padding-bottom: 0px;
+}
+
+.exhibit section h3 {
+    margin: 0px;
+    padding-bottom: 8px;
+}
+
+.exhibit-text p {
+    margin-bottom: 32px;
+}
+
+/* footer */
+
+footer div{
+    display: flex;
+    padding-top: 16px;
+    padding-left: 24px;
+}
+
+footer nav{
+    padding-left: 16px;
+    margin-left: auto;
 }
