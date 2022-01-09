@@ -21,8 +21,9 @@ a{
 
 p,button{
     color: #303030;
-    line-height: 1rem;
+    line-height: 1.58;
     font-size: 0.9rem;
+    margin-bottom: 32px;
 }
 
 div{
