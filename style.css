@@ -1,228 +1,370 @@
 body{
-    font-family: 'Conamore', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     font-size: 1rem;
 }
 
+h1,h5{
+    font-weight: bold;
+    line-height: 1.4rem;
+}
+
 h1{
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 a{
-    font-size: 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
     text-decoration:none;
 }
 
 p,button{
-    font-size: 1rem;
+    color: #303030;
+    line-height: 1rem;
+    font-size: 0.9rem;
 }
 
-
-/* header */
-
-header{
-    display:flex;
+div{
+    display: block;
 }
 
-.title {
-    display:inline;
-    
+@media only screen and (min-width: 801px){
+
+    .mobile {
+        display:none;
+    }
+
+    /* header */
+
+    header{
+        display:flex;
+    }
+
+    .title {
+        display:inline;
+    }
+
+    .name {
+        align-items: center;
+        font-size: 16px;
+    }
+
+    #logo {
+        margin-left: 24px;
+        margin-top:16px;
+        margin-bottom: 16px;
+        height: 32px;
+    }
+
+    #colmar {
+        font-weight: bold;
+        color:#3f3F3F;
+    }
+
+    #academy {
+        font-weight: lighter;
+        color:gainsboro;
+    }
+
+    nav a{
+        padding-left: 16px;
+        color:black;
+    }
+
+    #signIn {
+        padding-right: 24px;
+    }
+
+    /* banner */
+
+    .banner {
+        background-color: gainsboro;
+        display:flex;
+    }
+
+    #banner {
+        width: 100%;
+    }
+
+    .banner-left{
+        width: 60%;
+        padding: 32px 24px;
+    }
+
+    .banner-right{
+        width: 40%;
+        margin: auto 0;
+        font-size: 30px;
+    }
+
+    button {
+        background-color: #3F3F3F;
+        padding-top: 8px ;
+        padding-bottom: 8px ;
+        width:80%;
+        color:honeydew;
+    }
+
+    /* information-left */
+
+    #information, #exhibit{
+        padding-left: 24px;
+    }
+
+    .information-left, .exhibit-left{
+        padding-top: 32px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 0px;
+    }
+
+    .information-text, .exhibit-text{
+        padding-left: 24px;
+    }
+
+    .information-text section, .exhibit-text section{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .information article, .exhibit-text article{
+        padding-left: 0px;
+    }
+
+    .information-text aside{
+        padding-bottom: 32px;
+        padding-top: 32px;
+        padding-left: 0px;
+    }
+
+    .information-text p, .information-body p{
+        margin: 0px;
+    }
+
+    /* information-right */
+
+    .information-img, .exhibit-img {
+        padding: 16px;
+        height: auto;
+    }
+
+    .information-body, .exhibit-body{
+        padding:0px;
+        width: 50%;
+        margin: auto 0;
+    }
+
+    .information-body h3, .information-body a, .exhibit-body h3{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .ourGuest {
+        background-color: gainsboro;
+    }
+
+    /* start */
+
+    .startLearn {
+        background-color: gainsboro;
+    }
+
+    .startLearn h1, .exhibit h1{
+        text-align: center;
+        margin: 0px;
+        padding: 32px;
+    }
+
+    .cardRow {
+        display:flex;
+        padding-right: 40px;
+        padding-left: 40px;
+        margin: 0px;
+    }
+
+    .card{
+        padding:0px;
+        width: 18rem;
+        margin: 32px;
+        margin-top: 0px;
+    }
+
+    .card-img-top{
+        height: auto;
+    }
+
+    .card h5{
+        margin: 0px;
+    }
+
+    .card h6{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin: 0px;
+        color: gray;
+    }
+
+    .card .card-text{
+        padding-bottom: 24px;
+        line-height: 1.2rem;
+        color: gray;
+    }
+
+    .card-body {
+        padding: 0px;
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+
+    /* Exhibit */
+
+    .exhibit-left {
+        padding-top: 0px;
+    }
+
+    .exhibit section {
+        padding-bottom: 0px;
+    }
+
+    .exhibit section h3 {
+        margin: 0px;
+        padding-bottom: 8px;
+    }
+
+    .exhibit-text p {
+        margin-bottom: 32px;
+    }
+
+    .exhibit p{
+        color: gray;
+    }
+
+    /* footer */
+
+    footer div{
+        display: flex;
+        padding-top: 16px;
+        padding-left: 24px;
+    }
+
+    footer nav{
+        padding-left: 16px;
+        margin-left: auto;
+    }
+
+    footer {
+        color: gray;
+    }
 }
 
-.name {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 16px;
-}
+/* media */
 
-#logo {
-    margin-left: 24px;
-    margin-top:16px;
-    margin-bottom: 16px;
-    height: 32px;
-}
+@media only screen and (max-width: 800px) {
 
-#colmar {
-    color:#3f3F3F;
-}
+    .desktop {
+        display:none;
+    }
 
-#academy {
-    color:gainsboro;
-}
+    nav{
+        display:flex;
+        height: 64px;
+        width: 100%;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-.titleOpt{
-    margin-top: 16px;
-    margin-left: auto
-}
+    #banner, button {
+        width:100%;
+    }
 
-.titleOpt a{
-    padding-left: 16px;
-    color:black;
-}
+    h1{
+        font-size: 2.5rem;
+        font-weight: bold;
+        line-height: 2rem;
+        margin: 0px;
+        padding-top: 32px;
+        margin-bottom: 32px;
+    }
 
-#signIn {
-    padding-right: 24px;
-}
+    h5{
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
 
-/* banner */
+    p,a{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        margin-top: 16px;
+    }
 
-.banner {
-    background-color: gainsboro;
-    display:flex;
-}
+    button {
+        height: 4rem;
+        background-color: #303030;
+        color: white;
+        font-size: 1rem;
+        padding: 0px;
+        margin-top: 24px;
+    }
 
-#banner {
-    width: 100%;
-}
+    .banner-right{
+        background-color: gainsboro;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 32px;
+    }
 
-.banner-left{
-    width: 60%;
-    padding: 32px 24px;
-}
+    .banner-right p {
+        font-weight: bold;
+    }
 
-.banner-right{
-    width: 40%;
-    margin: auto 0;
-    font-size: 30px;
-}
+    .information-mobile {
+        padding: 16px 16px 32px;
+    }
 
-button {
-    background-color: #3F3F3F;
-    padding-top: 8px ;
-    padding-bottom: 8px ;
-    width:80%;
-    color:honeydew;
-}
+    .information-body {
+        padding: 64px 16px;
+    }
 
-/* information-left */
+    .ourGuest {
+        padding-bottom: 0px;
+    }
 
-#information, #exhibit{
-    padding-left: 24px;
-}
+    .startLearn {
+        border: gray;
+    }
 
-.information-left, .exhibit-left{
-    padding-top: 32px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 0px;
-}
+    .startLearn h1, .exhibit h1{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
 
-.information-text, .exhibit-text{
-    padding-left: 24px;
-}
+    .startLearn .course {
+        background-color: gainsboro;
+        padding: 16px 16px 24px 16px;
+        margin: 16px 16px 8px 16px;
+        align-items: center;
+    }
 
-.information-text section, .exhibit-text section{
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
+    .startLearn .marketing {
+        margin-bottom: 32px;
+    }
 
-.information article, .exhibit-text article{
-    padding-left: 0px;
-}
+    #exhibit {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 24px;
+    }
 
-.information-text aside{
-    padding-bottom: 32px;
-    padding-top: 32px;
-    padding-left: 0px;
-}
-
-.information-text p, .information-body p{
-    margin: 0px;
-}
-
-/* information-right */
-
-.information-img, .exhibit-img {
-    padding: 16px;
-    height: auto;
-}
-
-.information-body, .exhibit-body{
-    padding:0px;
-    width: 50%;
-    margin: auto 0;
-}
-
-.information-body h3, .information-body a, .exhibit-body h3{
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-/* start */
-
-.startLearn h1, .exhibit h1{
-    text-align: center;
-    margin: 0px;
-    padding: 32px;
-}
-
-.cardRow {
-    display:flex;
-    padding-right: 40px;
-    padding-left: 40px;
-    margin: 0px;
-}
-
-.card{
-    padding:0px;
-    width: 18rem;
-    margin: 32px;
-    margin-top: 0px;
-}
-
-.card-img-top{
-    height: auto;
-}
-
-.card h5{
-    margin: 0px;
-}
-
-.card p{
-    padding-top: 8px;
-    margin: 0px;
-}
-
-.card .card-text{
-    padding-bottom: 24px;
-}
-
-.card-body {
-    padding: 0px;
-    padding-left: 16px;
-    padding-top: 16px;
-}
-
-/* Exhibit */
-
-.exhibit-left {
-    padding-top: 0px;
-}
-
-.exhibit section {
-    padding-bottom: 0px;
-}
-
-.exhibit section h3 {
-    margin: 0px;
-    padding-bottom: 8px;
-}
-
-.exhibit-text p {
-    margin-bottom: 32px;
-}
-
-/* footer */
-
-footer div{
-    display: flex;
-    padding-top: 16px;
-    padding-left: 24px;
-}
-
-footer nav{
-    padding-left: 16px;
-    margin-left: auto;
+    footer p{
+        text-align: center;
+    }
 }

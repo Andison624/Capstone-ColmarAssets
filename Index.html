@@ -19,49 +19,49 @@
 
 <body class="border">
     <header>
-        <div>
+        <div class="desktop">
             <img id="logo" class="title" src="capstone_colmar_assets/images/ic-logo.svg" alt=”Capstone”>
-            <h1 class="title name" id="colmar"><strong>COLMAR</strong></h1>
-            <h1 class="title name" id="academy"><strong>ACADEMY</strong></h1>
+            <h1 class="title name" id="colmar">COLMAR</h1>
+            <h1 class="title name" id="academy">ACADEMY</h1>
         </div>
-        <nav class="titleOpt">
+        <nav class="desktop" style="margin-top: 16px; margin-left: auto;">
             <span><a href="#">On campus</a></span>
             <span><a href="#">Online</a></span>
             <span><a href="#">For companies</a></span>
             <span><a id="signIn" href="#">Sign in</a></span>
         </nav>
+        <nav class="mobile">
+            <span><a href="#"><img src="capstone_colmar_assets\images\ic-logo.svg"></a></span>
+            <span><a href="#"><img src="capstone_colmar_assets\images\ic-on-campus.svg"></a></span>
+            <span><a href="#"><img src="capstone_colmar_assets\images\ic-online.svg"></a></span>
+            <span><a href="#"><img src="capstone_colmar_assets\images\ic-login.svg"></a></span>
+        </nav>
+
     </header>
     <!-- banner -->
     <div class="banner">
-
         <div class="banner-left">
             <img id="banner" src="capstone_colmar_assets\images\banner.jpg">
         </div>
-
         <div class="banner-right">
             <section>
-                <h1><strong>Learn something<br>new everyday</strong></h1>
+                <h1>Learn something new everyday</h1>
             </section>
             <article>
-                <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </article>
-            <br>
             <button type="button">Start here</button>
         </div>
-
     </div>
     <!-- information-main -->
     <div class="information row">
-
-        <div class="information-left col-7">
-
+        <div class="information-left col-7 desktop">
             <div class="row">
                 <img id="information" src="capstone_colmar_assets\images\information-main.jpg">
             </div>
-
             <div class="information-text row">
                 <section>
-                    <h1><strong>It doesn't hurt to keep practicing</strong></h1>
+                    <h1>It doesn't hurt to keep practicing</h1>
                 </section>
                 <article>
                     <p>
@@ -75,82 +75,110 @@
                     <p>Emanuel, Sr Strategist at Hiring.com</p>
                 </aside>
             </div>
-
         </div>
-
-        <div class="information-right col-5 border">
-
+        <div class="information-right col-5 border desktop">
             <div class="information-aside row border">
-
                 <div class="information-img col-4">
                     <img src="capstone_colmar_assets\images\information-orientation.jpg"
                         style="width:100%; height: auto;">
                 </div>
-
                 <div class="information-body col-8">
                     <section>
-                        <h3>Orientation date</h3>
+                        <h5>Orientation date</h5>
                     </section>
                     <article>
                         <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
                     </article>
                     <a href='#'>Read more</a>
                 </div>
-
             </div>
-
             <div class="information-aside row border">
-
                 <div class="information-img col-4">
                     <img src="capstone_colmar_assets\images\information-campus.jpg" style="width:100%; height: auto;">
                 </div>
-
                 <div class="information-body col-8">
                     <section>
-                        <h3>Our campus</h3>
+                        <h5>Our campus</h5>
                     </section>
                     <article>
                         <p>Find which campus is close by you</p>
                     </article>
                     <a href='#'>Read more</a>
                 </div>
-
             </div>
-
-            <div class="information-aside row" style="background-color: gainsboro;">
-
+            <div class="information-aside ourGuest row">
                 <div class="information-img col-4">
                     <img src="capstone_colmar_assets\images\information-guest-lecture.jpg"
                         style="width:100%; height: auto;">
                 </div>
-
                 <div class="information-body col-8">
                     <section>
-                        <h3>Our guest lecture</h3>
+                        <h5>Our guest lecture</h5>
                     </section>
                     <article>
                         <p>Join a keynote with Oliver Sack about music in medical treatment</p>
                     </article>
                     <a href='#'>Read more</a>
                 </div>
-
             </div>
-
         </div>
-
+        <div class="information-mobile mobile">
+            <div>
+                <div class="information-img">
+                    <img src="capstone_colmar_assets\images\information-orientation-mobile.jpg"
+                        style="width:100%; height: auto;">
+                </div>
+                <div class="information-body">
+                    <section>
+                        <h5>Orientation date</h5>
+                    </section>
+                    <article>
+                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                    </article>
+                    <a href='#'>Read more</a>
+                </div>
+            </div>
+            <div>
+                <div class="information-img">
+                    <img src="capstone_colmar_assets\images\information-campus-mobile.jpg"
+                        style="width:100%; height: auto;">
+                </div>
+                <div class="information-body">
+                    <section>
+                        <h5>Our campus</h5>
+                    </section>
+                    <article>
+                        <p>Find which campus is close by you</p>
+                    </article>
+                    <a href='#'>Read more</a>
+                </div>
+            </div>
+            <div>
+                <div class="information-img">
+                    <img src="capstone_colmar_assets\images\information-guest-lecture-mobile.jpg"
+                        style="width:100%; height: auto;">
+                </div>
+                <div class="information-body ourGuest">
+                    <section>
+                        <h5>Our guest lecture</h5>
+                    </section>
+                    <article>
+                        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                    </article>
+                    <a href='#'>Read more</a>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Start -->
-    <div class="startLearn" style="background-color: gainsboro;">
-
-        <h1><strong>Start learning</strong></h1>
-
-        <div class="cardRow row">
-
+    <div class="startLearn">
+        <h1>Start learning</h1>
+        <div class="cardRow row desktop">
             <div class="card col">
                 <img src="capstone_colmar_assets\images\course-software.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Software engineering</h5>
-                    <p>COURSES</p>
+                    <h6>COURSES</h6>
                     <p class="card-text">Web Development, Mobile Development, iOT, APIs</p>
                 </div>
             </div>
@@ -158,7 +186,7 @@
                 <img src="capstone_colmar_assets\images\course-computer-art.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Computer art</h5>
-                    <p>COURSES</p>
+                    <h6>COURSES</h6>
                     <p class="card-text">Imaging & design, Web Design, Motion Graphics &
                         Visual Effects, Computer Animation</p>
                 </div>
@@ -167,21 +195,18 @@
                 <img src="capstone_colmar_assets\images\course-design.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Design</h5>
-                    <p>COURSES</p>
+                    <h6>COURSES</h6>
                     <p class="card-text">User Experience Design, User Research, Visual
                         Design</p>
                 </div>
             </div>
-
         </div>
-
-        <div class="cardRow row">
-
+        <div class="cardRow row desktop">
             <div class="card col" style="margin-top: 0px;">
                 <img src="capstone_colmar_assets\images\course-data.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Data</h5>
-                    <p>COURSES</p>
+                    <h6>COURSES</h6>
                     <p class="card-text">Data Science, Big Data, SQL, Data Visualization</p>
                 </div>
             </div>
@@ -189,7 +214,7 @@
                 <img src="capstone_colmar_assets\images\course-business.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Business</h5>
-                    <p>COURSES</p>
+                    <h6>COURSES</h6>
                     <p class="card-text">Product Development, Business Development, Startup</p>
                 </div>
             </div>
@@ -197,28 +222,46 @@
                 <img src="capstone_colmar_assets\images\course-marketing.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Marketing</h5>
-                    <p>COURSES</p>
+                    <h6>COURSES</h6>
                     <p class="card-text">Analytics, Content Marketing, Mobile Marketing</p>
                 </div>
             </div>
-
+        </div>
+        <div class="mobile">
+            <div class="course">
+                <h5>Software engineering</h5>
+            </div>
+            <div class="course">
+                <h5>Computer art</h5>
+            </div>
+            <div class="course">
+                <h5>Design</h5>
+            </div>
+            <div class="course">
+                <h5>Data</h5>
+            </div>
+            <div class="course">
+                <h5>Business</h5>
+            </div>
+            <div class="course marketing">
+                <h5>Marketing</h5>
+            </div>
         </div>
     </div>
 
     <!-- Exhibit -->
     <div class="exhibit row">
-
-        <h1><strong>Thesis exhibit</strong></h1>
-
+        <h1>Thesis exhibit</h1>
+        <div class="mobile">
+            <video id="exhibit" src="capstone_colmar_assets\videos\thesis.mp4" controls></video>
+        </div>
         <div class="exhibit-left col-7">
-
-            <div class="row">
+            <div class="row desktop">
                 <video id="exhibit" src="capstone_colmar_assets\videos\thesis.mp4" controls></video>
             </div>
-
-            <div class="exhibit-text row">
+            <div class="exhibit-text row desktop">
                 <section>
-                    <h3>Reimagine urban</h3>
+                    <h5>Reimagine urban</h5>
                 </section>
                 <article>
                     <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat
@@ -227,59 +270,44 @@
                         consequat, tristique ligula."</p>
                 </article>
             </div>
-
         </div>
-
-        <div class="exhibit-right col-5">
-
+        <div class="exhibit-right col-5 desktop">
             <div class="row" style="background-color: gainsboro;">
-
                 <div class="exhibit-img col-4">
                     <img src="capstone_colmar_assets\images\thesis-fisma.jpg" style="width:100%; height: auto;">
                 </div>
-
                 <div class="exhibit-body col-8">
                     <section>
-                        <h3>Fisma: Design and Prototype</h3>
+                        <h5>Fisma: Design and Prototype</h5>
                     </section>
                     <article>
                         <p>Designer showcase of new prototype product</p>
                     </article>
                 </div>
-
             </div>
-
             <div class="row">
-
                 <div class="exhibit-img col-4">
                     <img src="capstone_colmar_assets\images\thesis-now-and-then.jpg" style="width:100%; height: auto;">
                 </div>
-
                 <div class="exhibit-body col-8">
                     <section>
-                        <h3>Now and then</h3>
+                        <h5>Now and then</h5>
                     </section>
                     <article>
                         <p>Research study about New York</p>
                     </article>
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
-    </div>
-
 </body>
 
 <footer class="border">
     <div>
-        <p>@ 2016 Colmar Academy. All rights reserved</p>
-        <nav>
-            <a href='#'>Terms</a>
-            <a href='#'>Privacy</a>
+        <p style="color: gray;">@ 2016 Colmar Academy. All rights reserved</p>
+        <nav class="desktop">
+            <a href='#' style="color: gray;">Terms</a>
+            <a href='#' style="color: gray;">Privacy</a>
         </nav>
     </div>
 </footer>
