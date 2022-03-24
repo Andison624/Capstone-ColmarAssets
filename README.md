@@ -1,17 +1,17 @@
 # Capstone-ColmarAssets
 Completion:2021-1 week  
-VUEW DEMO: https://andison624.github.io/Capstone-ColmarAssets/  
+VIEW DEMO: https://andison624.github.io/Capstone-ColmarAssets/  
 # CHALLENGE
  This project provides both desktop and responsive versions of the image, which need to be done in one week according to the size and layout requirements provided.
 # OUTCOME
 To complete this project within the target timeframe, I used bootstrap framework to complete this challenge.
 # SKILLS
-HTML5
-CSS
-Bootstrap
+HTML5  
+CSS  
+Bootstrap  
 ResponsiveWeb
 # WHAT DO USERS WANT?
-01: They need the project to match the size and layout required within the images they provide.
+01: They need the project to match the size and layout required within the images they provide.  
 02: They need both desktop and the responsive versions.
 # REQUIREMENTS
 ![image](https://github.com/Andison624/Andison624.github.io/blob/master/portfoilo/src/images/colmar-academy-spec.png)
@@ -22,5 +22,5 @@ While searching the information, I found the web framework software, that pre-pi
 # RESULTS AND TAKEAWAYS
 With the popularity of 3G, more and more people are using mobile phones to access the Internet. Mobile devices are overtaking desktop devices as the most common terminals to access the Internet.This project allowed me to be exposed to this concept, which I believe can be applied to future projects.
 # Some key takeaways from this project are:
-  As getting into bootstrap, I learned about the convenience of framework
+  As getting into bootstrap, I learned about the convenience of framework  
   Search the responsive profile, know-how does its importanc
