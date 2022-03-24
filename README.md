@@ -1,6 +1,6 @@
 # Capstone-ColmarAssets
 Completion:2021-1 week
-VUEW DEMO: https://andison624.github.io/Capstone-ColmarAssets/
+VUEW DEMO: https://andison624.github.io/Capstone-ColmarAssets/  
 # CHALLENGE
  This project provides both desktop and responsive versions of the image, which need to be done in one week according to the size and layout requirements provided.
 # OUTCOME
